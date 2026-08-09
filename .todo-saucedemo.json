@@ -1,0 +1,7 @@
+{
+  "tasks": [
+    { "id": 1, "title": "Draft SauceDemo login test plan", "status": "completed" },
+    { "id": 2, "title": "Add POM guidance to plan", "status": "completed" },
+    { "id": 3, "title": "Save plan to specs/saucedemo-login.md", "status": "completed" }
+  ]
+}
