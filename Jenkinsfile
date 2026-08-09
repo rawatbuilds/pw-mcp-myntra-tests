@@ -1,9 +1,10 @@
 pipeline {
-  agent any
-  stages {
-    stage('Checkout') {
-      steps { checkout scm }
+  agent {
+    docker {
+      image 'mcr.microsoft.com/playwright:v1.62.1-jammy'
     }
+  }
+  stages {
     stage('Install') {
       steps { sh 'npm ci' }
     }
