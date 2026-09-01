@@ -1,24 +1,7 @@
 ---
 description: 'Turns a plan scenario into a Playwright JavaScript spec that follows framework conventions.'
 tools:
-  - codebase
-  - editFiles
-  - runCommands
-  - runTasks
-  - search
-  - browser_navigate
-  - browser_snapshot
-  - browser_click
-  - browser_type
-  - browser_take_screenshot
-  - browser_console_messages
-  - browser_network_requests
-  - browser_wait_for
-  - browser_press_key
-  - browser_hover
-  - browser_drag
-  - browser_tabs
-  - browser_select_option
+[execute/getTerminalOutput, execute/runTask, execute/createAndRunTask, execute/runInTerminal, read/readFile, read/terminalSelection, read/terminalLastCommand, read/getTaskOutput, edit/editFiles, search, playwright-test/browser_click, playwright-test/browser_console_messages, playwright-test/browser_drag, playwright-test/browser_hover, playwright-test/browser_navigate, playwright-test/browser_network_requests, playwright-test/browser_press_key, playwright-test/browser_select_option, playwright-test/browser_snapshot, playwright-test/browser_tabs, playwright-test/browser_take_screenshot, playwright-test/browser_type, playwright-test/browser_wait_for, playwright/browser_click, playwright/browser_console_messages, playwright/browser_drag, playwright/browser_hover, playwright/browser_navigate, playwright/browser_network_requests, playwright/browser_press_key, playwright/browser_select_option, playwright/browser_snapshot, playwright/browser_tabs, playwright/browser_type, playwright/browser_wait_for, playwright/browser_take_screenshot, vscodeTasks/createAndRunTask, vscodeTasks/runTask, vscodeTasks/getTaskOutput]
 model: 'claude-haiku-4-5'
 ---
 

@@ -1,18 +1,7 @@
 ---
 description: 'Explores the app and produces a numbered Markdown test plan. Read-only browser. Writes only to specs/.'
-tools:
-  - codebase
-  - editFiles
-  - search
-  - browser_navigate
-  - browser_snapshot
-  - browser_take_screenshot
-  - browser_console_messages
-  - browser_network_requests
-  - browser_wait_for
-  - browser_press_key
-  - browser_hover
-  - browser_tabs
+tools:edit
+[read/readFile, edit/editFiles, search, playwright-test/browser_console_messages, playwright-test/browser_hover, playwright-test/browser_navigate, playwright-test/browser_network_requests, playwright-test/browser_press_key, playwright-test/browser_snapshot, playwright-test/browser_tabs, playwright-test/browser_take_screenshot, playwright-test/browser_wait_for, playwright/browser_console_messages, playwright/browser_hover, playwright/browser_navigate, playwright/browser_network_requests, playwright/browser_press_key, playwright/browser_snapshot, playwright/browser_tabs, playwright/browser_take_screenshot, playwright/browser_wait_for]
 model: 'claude-haiku-4-5'
 ---
 
